@@ -5,10 +5,12 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
-        doFizzBuzz(5);
+        doFizzBuzz();
     }
 
-    static void doFizzBuzz(int i) {
+    static void doFizzBuzz() {
+
+        int i = 1;
 
         while (i < 100) {
 
